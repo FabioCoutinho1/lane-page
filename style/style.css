@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+body, html{
+    max-height: 100vh;
+    max-width: 100vw;
+    background-color: lightblue;
+}
+
+/* nav */
+
+header{
+    display: flex;
+    align-items: center;
+    background-color: lightpink;
+    height: 75px;
+}
+
+header > nav{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+}
+
+nav > h1{
+    font-style: oblique;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: purple;
+}
+
+nav > ul {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+}
+
+nav > ul > li > a{
+    text-decoration: none;
+    color: purple;
+}
+
+/* fim anv */
+
+/* main */
+
+main{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+section{
+    height: 100vh;
+    width: 750px;
+    background-color: aqua;
+}
+
+
+
+/* fim main */
